@@ -467,6 +467,9 @@ div label[for=ui-component-toggle__yearly] {
 
 .ui-image-half-right-float {
   animation: float 5s ease-in-out infinite;
+  /* width: 1366px;
+  height: 1024px;
+  object-fit: cover; */
 }
 
 @keyframes float {
