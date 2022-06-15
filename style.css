@@ -326,10 +326,10 @@ input[name="toggle"] { display: none; }
   padding: .5rem .625rem;
 }
 
-#ui-component-toggle__monthly:checked ~
-div label[for=ui-component-toggle__monthly],
-#ui-component-toggle__yearly:checked ~
-div label[for=ui-component-toggle__yearly] {
+#ui-component-toggle__classic:checked ~
+div label[for=ui-component-toggle__classic],
+#ui-component-toggle__global:checked ~
+div label[for=ui-component-toggle__global] {
   background-color: var(--ui-color-background-primary);
   color: var(--ui-color-typography-body);
 }
@@ -582,19 +582,19 @@ div label[for=ui-component-toggle__yearly] {
 
 /* AMOUNT */
 
-.ui-component-card--pricing-amount-1::before { content: "$10"; }
+.ui-component-card--pricing-amount-1::before { content: "30€"; }
 
-#ui-component-toggle__yearly:checked ~ div
+#ui-component-toggle__global:checked ~ div
 .ui-component-card--pricing-amount-1::before { content: "$3"; }
 
-.ui-component-card--pricing-amount-2::before { content: "$15"; }
+.ui-component-card--pricing-amount-2::before { content: "35€"; }
 
-#ui-component-toggle__yearly:checked ~ div
+#ui-component-toggle__global:checked ~ div
 .ui-component-card--pricing-amount-2::before { content: "$13"; }
 
-.ui-component-card--pricing-amount-3::before { content: "$20"; }
+.ui-component-card--pricing-amount-3::before { content: "5€"; }
 
-#ui-component-toggle__yearly:checked ~ div
+#ui-component-toggle__global:checked ~ div
 .ui-component-card--pricing-amount-3::before { content: "$23"; }
 
 /* LIST */
@@ -773,10 +773,10 @@ div label[for=ui-component-toggle__yearly] {
     justify-items: center;
   }
 
-  .ui-layout-grid-3 div:nth-of-type(3) {
+/*   .ui-layout-grid-3 div:nth-of-type(3) {
     left: calc(50% + (var(--ui-layout-gutter) / 2));
     position: relative;
-  }
+  } */
 
   .ui-layout-column-4 {
     width: calc((var(--ui-layout-grid) * 4) +
