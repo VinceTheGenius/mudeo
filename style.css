@@ -306,7 +306,7 @@ svg {
 |
 --------------------------------------------------------------*/
 
-input[name="toggle"] { display: none; }
+/* input[name="toggle"] { display: none; }
 
 .ui-component-toggle {
   background-color: var(--ui-color-background-tertiary);
@@ -332,7 +332,7 @@ div label[for=ui-component-toggle__classic],
 div label[for=ui-component-toggle__global] {
   background-color: var(--ui-color-background-primary);
   color: var(--ui-color-typography-body);
-}
+} */
 
 /*--------------------------------------------------------------
 |
@@ -584,18 +584,22 @@ div label[for=ui-component-toggle__global] {
 
 .ui-component-card--pricing-amount-1::before { content: "30€"; }
 
-#ui-component-toggle__global:checked ~ div
-.ui-component-card--pricing-amount-1::before { content: "$3"; }
+/* #ui-component-toggle__global:checked ~ div
+.ui-component-card--pricing-amount-1::before { content: "$3"; } */
 
 .ui-component-card--pricing-amount-2::before { content: "35€"; }
 
-#ui-component-toggle__global:checked ~ div
-.ui-component-card--pricing-amount-2::before { content: "$13"; }
+/* #ui-component-toggle__global:checked ~ div
+.ui-component-card--pricing-amount-2::before { content: "$13"; } */
 
 .ui-component-card--pricing-amount-3::before { content: "5€"; }
 
-#ui-component-toggle__global:checked ~ div
-.ui-component-card--pricing-amount-3::before { content: "$23"; }
+/* #ui-component-toggle__global:checked ~ div
+.ui-component-card--pricing-amount-3::before { content: "$23"; } */
+
+.ui-component-card--pricing-amount-4::before { content: "120€"; }
+
+.ui-component-card--pricing-amount-5::before { content: "220€"; }
 
 /* LIST */
 
